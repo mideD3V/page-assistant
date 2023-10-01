@@ -1,0 +1,36 @@
+#container{
+    background-color: rgb(103, 124, 104);
+    border: 2px solid brown;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+}
+
+#object{
+    
+width: 10rem;
+height: 7.5rem;
+border-radius: 50%;
+transform: translate3d(5px, 5px, 0);
+transition: 0.5s cubic-bezier(.25, .54, .52, .74);
+}
+
+.btn-ctn{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 15rem;
+
+}
+.btn-ctn button{
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.btn-ctn button:hover{
+    background-color: rgb(63, 60, 60);
+    color: aliceblue;
+}
+.btn-ctn button:focus{
+    background-color: black;
+    color: aliceblue;
+}
